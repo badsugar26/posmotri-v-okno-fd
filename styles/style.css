@@ -57,7 +57,7 @@ ol {
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  padding: 133px 30px;
+  padding: 0 30px;
 }
 
 .result {
@@ -81,6 +81,7 @@ ol {
 .content__details{
   display: flex;
   min-width: 399px;
+  max-height: 534px;
   gap: 20px;
   flex-direction: column;
 }
@@ -92,7 +93,7 @@ ol {
 }
 
 .content__list-container {
-  max-height: 298px;
+  min-height: 298px;
   overflow: auto;
   position: relative;
 }
